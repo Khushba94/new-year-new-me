@@ -1,0 +1,51 @@
+/* common style */
+* {
+  margin: 0;
+}
+/* banner style */
+.banner {
+  width: 1519px;
+  height: 808px;
+  background-image: url("/images/banner/banner3.png");
+}
+.banner-text {
+  text-align: right;
+  width: 425px;
+  padding-left: 950px;
+  padding-top: 400px;
+  color: white;
+}
+.banner-title{
+    font-size: 65px;
+}
+.banner-description {
+  text-wrap: wrap;
+  margin: 25px 0;
+}
+.banner-btn {
+  background: white;
+  color: #005FAC;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+/* last year failure style */
+.last-year-failure {
+  display: flex;
+  align-items: center;
+  margin: 180px 87px;
+}
+.failure-text{
+    width: 310px;
+    margin-left: 134px;
+}
+.failure-title{
+    font-size: 40px;
+}
+.fa-check {
+    color: green;
+    padding: 0 5px;
+}
+.failure-description{
+    margin: 20px 0;
+}
